@@ -1,0 +1,615 @@
+.hangingTag{
+    top: 75.5px;
+
+    width: 185px;
+    position: fixed;
+    left: 0%;
+    transform: translate(0, -50%);
+    transition:all 50ms;
+}
+
+
+
+
+
+.tag1{
+    left: 57.5%;
+
+    position: absolute;
+    top: 100%;
+}
+.tag1-text{
+    top: 399px;
+    left: 130px;
+
+    position: absolute;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier-Prime', monospace;
+    color: white;
+    background-color: #3a5f46;
+    padding: 5px;
+    transition:all 1000ms;
+}
+.tag2{
+    top: 137%;
+    left: 20%;
+
+    position: absolute;
+    width: 400px;
+}
+.tag2-text{
+    top: 407.33px;
+    left: 250px;
+
+    position: absolute;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier-Prime', monospace;
+    color: white;
+    background-color: #3a5f46;
+    padding: 5px;
+    transition:all 1000ms;
+}
+.tag3{
+    top: 190%;
+    left: 48.5%;
+
+    position: absolute;
+}
+.tag3-text{
+    top: 407.33px;
+    left: 175px;
+
+    position: absolute;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier-Prime', monospace;
+    color: white;
+    background-color: #3a5f46;
+    padding: 5px;
+    transition:all 1000ms;
+}
+.clothingIndexTitle{
+    top: 327%;
+
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center;
+    padding: 1%;
+    background-color:rgb(224, 244, 229);
+    border: 7.5px;
+    border-style: double ;
+    border-color: #ec170c;
+    color: #ec170c;
+    font-family: 'Courier-Prime', monospace;
+    font-size: 45px;
+    font-weight: bold;
+    transition: all 500ms;
+}
+.grid-container {
+    top: 342%;
+
+    height: 70%;
+
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    column-gap: 20px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition:all 1000ms;
+}
+
+
+
+body{
+    margin: 0%;
+    background-color: rgb(224, 244, 229);
+}
+
+
+
+
+.leftClothingRackPrev{
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    pointer-events: none;
+}
+.leftClothingRackDiv{
+    position: fixed;
+    width: 297px;
+    top: -69px;
+    left: -104px;
+    height: auto;
+    transition:all 150ms;
+}
+.leftClothingRack{
+    width: 297px;
+    /* position: fixed; */
+    pointer-events: all;
+    /* width: 20%; */
+    /* top: -8%; */
+    /* left: -7%; */
+}
+.prevDiv{
+    position: absolute;
+    top: 35%;
+    left: 60%; 
+    transform: translate(-50%, -50%); 
+}
+.prev{
+    font-family: 'Play', sans-serif;
+    font-size: 20pt;
+    color: white;
+    opacity: 0%;
+    pointer-events: all;
+    z-index: 101;
+}
+
+
+
+.rightClothingRackNext{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.rightClothingRackDiv{
+    position: fixed; 
+    width: 297px;    
+    top: -69px;    
+    right: -104px;    
+    height: auto;
+    transition:all 150ms;
+}
+.rightClothingRack{
+    width: 297px;
+    pointer-events: all;
+}
+.nextDiv{
+    position: absolute;
+    top: 35%;
+    left: 40%; 
+    transform: translate(-50%, -50%); 
+}
+.next{
+    font-family: 'Play', sans-serif;
+    font-size: 20pt;
+    color: white;
+    opacity: 0%;
+    pointer-events: all;
+    z-index: 100;
+}
+
+
+
+.tagText{
+    position: fixed;
+    width: 900px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+}
+.tagTitle{
+    font-size: 55pt;
+    font-family: 'Play', sans-serif;
+    color: #ec170c;
+    letter-spacing: 2.5pt;
+    transition:all 1000ms;
+}
+.tagDescription{
+    width: 700px;
+    color: #1D1D1D;
+    font-family: 'Courier-Prime', monospace;
+    font-size: 15pt;
+    margin-top: 40pt;
+    padding-left: 200pt;
+    transition:all 1000ms;
+}
+.tagDate{
+    color: #ec170c;
+    font-family: 'Play', sans-serif;
+    font-size: 15pt;
+    margin-top: 45pt;
+    transition:all 1000ms;
+}
+
+
+
+.tag1-green{
+    position: absolute;
+    width: 400px;
+    border: 7.5px;
+    border-style: double ;
+    border-color: #3a5f46;
+    transition:all 1000ms;
+}
+
+
+
+.tag2-green{
+    position: absolute;
+    width: 400px;
+    border: 7.5px;
+    border-style: double ;
+    border-color: #3a5f46;
+    transition:all 1000ms;
+}
+
+.tag3-green{
+    position: absolute;
+    width: 400px;
+    border: 7.5px;
+    border-style: double ;
+    border-color: #3a5f46;
+    transition:all 1000ms;
+}
+
+
+
+.tag4-green{
+    position: absolute;
+    width: 400px;
+    border: 7.5px;
+    border-style: double ;
+    border-color: #3a5f46;
+    transition:all 1000ms;
+}
+
+
+
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+    border: 7.5px;
+    border-style: double ;
+    border-color: #ec170c;
+    width: 500px;
+    height: 500px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px; 
+    transition:all 1000ms;
+}
+.grid-leftColumn{
+	position: relative;
+	top:0;
+    transition:all 1000ms;
+}
+.grid-rightColumn{
+	position: relative;
+	top:250px;
+    transition:all 1000ms;
+}
+
+
+
+.clothing1-item, .clothing2-item, .clothing3-item, .clothing4-item, .clothing5-item{
+    position: relative;
+    width: 100%;
+    filter: brightness();
+    transition:all 500ms;
+}
+.clothing1-text, .clothing2-text, .clothing3-text, .clothing4-text, .clothing5-text{
+    position: relative;
+    top: -265.5px;
+    left: 10px;
+    width: 400px;
+    transform: translate(0%, 100%);
+    text-align:left;
+    font-family: 'Courier-Prime', monospace;
+    font-size: 20pt;
+    color: white;
+    padding: 0px;
+    margin: 0%;
+    opacity: 0;
+    transition:all 500ms;
+    pointer-events: none;
+}
+
+
+
+.room{
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 1%;
+    font-family: 'Play', sans-serif;
+    color: #3a5f46;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+    .hangingTag{
+        top: 38px;
+
+        width: 92.5px;
+        position: fixed;
+        left: 0%;
+        transform: translate(0, -50%);
+    }
+    .tag1 {
+    left: 52.5%;
+    position: absolute;
+    top: 100%;
+    }
+    .tag1-text{
+        top: 210px;
+        left: 61px;
+
+        position: absolute;
+        width: 200px;
+        transform: translate(-50%, -50%);
+        font-family: 'Courier-Prime', monospace;
+        font-size: 12.5px;
+        color: white;
+        background-color: #3a5f46;
+        padding: 5px;
+    }
+    .tag2-text{
+        top: 234px;
+        left: 149px;
+       
+        position: absolute;
+        width: 200px;
+        transform: translate(-50%, -50%);
+        font-family: 'Courier-Prime', monospace;
+        font-size: 12.5px;
+        color: white;
+        background-color: #3a5f46;
+        padding: 5px;
+    }
+    .tag3{
+        top: 172%;
+        left: 48.5%;
+
+        position: absolute;
+    }    
+    .tag3-text{
+        top: 210px;
+        left: 86px;
+
+        position: absolute;
+        width: 200px;
+        transform: translate(-50%, -50%);
+        font-family: 'Courier-Prime', monospace;
+        font-size: 12.5px;
+        color: white;
+        background-color: #3a5f46;
+        padding: 5px;
+    }
+    .tag4{
+        top: 203%;
+        left: 13%;
+
+        position: absolute;
+    }    
+    .tag4-text{
+        top: 5px;
+        left: 280px;
+
+        position: absolute;
+        width: 200px;
+        transform: translate(-50%, -50%);
+        font-family: 'Courier-Prime', monospace;
+        font-size: 12.5px;
+        color: white;
+        background-color: #3a5f46;
+        padding: 5px;
+    }
+    .clothingIndexTitle{
+        top: 276%;
+
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        text-align: center;
+        padding: 1%;
+        background-color:rgb(224, 244, 229);
+        border: 4px;
+        border-style: double ;
+        border-color: #ec170c;
+        color: #ec170c;
+        font-family: 'Courier-Prime', monospace;
+        font-size: 22.5px;
+        font-weight: bold;
+    }
+
+
+    .grid-container {
+        top: 281%;
+
+        width: 60%;
+        position: absolute;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        column-gap: 5px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        height: 35%;
+    }     
+
+
+
+    .leftClothingRackPrev{
+        position: fixed;
+        width: 50%;
+        height: 100%;
+        pointer-events: none;
+    }
+    .leftClothingRackDiv{
+        position: fixed;
+        width: 237px;
+        top: -69px;
+        left: -104px;
+        height: auto;
+    }
+    .leftClothingRack{
+        width: 230px;
+        /* position: fixed; */
+        pointer-events: all;
+        /* width: 20%; */
+        /* top: -8%; */
+        /* left: -7%; */
+    }
+    .prevDiv{
+        position: absolute;
+        top: 35%;
+        left: 60%; 
+        transform: translate(-50%, -50%); 
+    }
+    .prev{
+        font-family: 'Play', sans-serif;
+        font-size: 12.5pt;
+        color: white;
+        opacity: 0%;
+        pointer-events: all;
+        z-index: 101;
+    }
+
+
+
+    .rightClothingRackNext{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+    .rightClothingRackDiv{
+        position: fixed; 
+        width: 237px;    
+        top: -69px;    
+        right: -104px;    
+        height: auto;
+    }
+    .rightClothingRack{
+        width: 230px;
+        pointer-events: all;
+        /* width: 20%; */
+        /* top: -8%;
+        right: -7%; */
+    }
+    .nextDiv{
+        position: absolute;
+        top: 35%;
+        left: 40%; 
+        transform: translate(-50%, -50%); 
+    }
+    .next{
+        font-family: 'Play', sans-serif;
+        font-size: 12.5pt;
+        color: white;
+        opacity: 0%;
+        pointer-events: all;
+        z-index: 100;
+    }
+
+
+    
+    .tagText{
+        left: 62%;
+        top: 30%;
+        transform: translate(-50%,-50%);
+        width: 689px;
+    }
+    .tagTitle{
+        font-size:20px;
+    }
+    .tagDescription{
+        font-size: 12.5px;
+        padding-left: 40pt;
+        width: 440px;
+    }
+    .tagDate{
+        font-size: 12.5pt;
+        margin-top: 45pt;
+    }
+
+    .tag1-green{
+        position: absolute;
+        width: 200px;
+        border: 7.5px;
+        border-style: double ;
+        border-color: #3a5f46;
+    }
+
+    .tag2-green{
+        position: absolute;
+        width: 200px;
+        border: 7.5px;
+        border-style: double ;
+        border-color: #3a5f46;
+    }
+
+    .tag3-green{
+        position: absolute;
+        width: 200px;
+        border: 7.5px;
+        border-style: double ;
+        border-color: #3a5f46;
+    }
+
+
+    .tag4-green{
+        position: absolute;
+        width: 200px;
+        border: 7.5px;
+        border-style: double ;
+        border-color: #3a5f46;
+    }
+  
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 4px;
+        border-style: double ;
+        border-color: #ec170c;
+        width: 207.5px;
+        height: 207.5px;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 5px; 
+    }
+    .grid-leftColumn{
+        position: relative;
+        top:0;
+        
+    }
+    .grid-rightColumn{
+        position: relative;
+        top:103.75px;
+    }
+
+
+
+    .clothing1-item, .clothing2-item, .clothing3-item, .clothing4-item, .clothing5-item{
+        position: relative;
+        width: 100%;
+        filter: brightness();
+    }
+    .clothing1-text, .clothing2-text, .clothing3-text, .clothing4-text, .clothing5-text{
+        position: relative;
+        top: -140px;
+        left: 10px;
+        width: 200px;
+        transform: translate(0%, 100%);
+        font-family: 'Courier-Prime', monospace;
+        font-size: 13px;
+        color: white;
+        /* background-color: #3a5f46; */
+        padding: 0px;
+        margin: 0%;
+        opacity: 0; 
+        pointer-events: none;
+    }
+    
+}
